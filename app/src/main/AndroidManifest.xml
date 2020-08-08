@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.crud">
+    package="com.example.TPMA2_10517094">
 
     <application
         android:allowBackup="true"
@@ -10,18 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".UpdateTripActivity"
+            android:name="com.example.TPMA2_10517094.UpdateTripActivity"
             android:label="@string/title_activity_update_trip"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".CreateTripActivity"
+            android:name="com.example.TPMA2_10517094.CreateTripActivity"
             android:label="@string/title_activity_create_trip"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DetailTripActivity"
+            android:name="com.example.TPMA2_10517094.DetailTripActivity"
             android:label="@string/title_activity_detail_trip"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.TPMA2_10517094.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

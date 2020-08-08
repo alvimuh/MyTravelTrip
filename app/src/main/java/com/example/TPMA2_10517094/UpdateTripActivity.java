@@ -1,4 +1,4 @@
-package com.example.crud;
+package com.example.TPMA2_10517094;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -9,12 +9,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.RadioGroup;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -67,7 +63,7 @@ public class UpdateTripActivity extends AppCompatActivity implements AdapterView
                             textTitle.getText().toString() +"', "+DataHelper.MyColumns.location+"='" +
                             textLocation.getText().toString()+"', "+DataHelper.MyColumns.date_visit+"='"+
                             textDate.getText().toString() +"', "+DataHelper.MyColumns.short_story+"='" +
-                            textDate.getText().toString()+"' where "+DataHelper.MyColumns.id_trip+"='" +
+                            textStory.getText().toString()+"' where "+DataHelper.MyColumns.id_trip+"='" +
                             idTrip+"'");
                     Toast.makeText(getApplicationContext(), "Success",
                             Toast.LENGTH_LONG).show();

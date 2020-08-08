@@ -1,4 +1,4 @@
-package com.example.crud;
+package com.example.TPMA2_10517094;
 
 import android.content.DialogInterface;
 import android.content.Intent;
