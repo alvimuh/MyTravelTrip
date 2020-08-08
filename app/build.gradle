@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.crud"
+        applicationId "com.example.TPMA2_10517094"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
