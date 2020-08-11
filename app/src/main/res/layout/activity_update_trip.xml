@@ -65,6 +65,12 @@
                 android:ems="10"
                 android:hint="Cerita Singkat (hightlight)"
                 android:inputType="textMultiLine" />
+            <LinearLayout
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
             <Button
                 style="@style/ButtonGeneral"
                 android:id="@+id/button_main"
@@ -72,7 +78,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/save_button"
                 android:drawableLeft="@android:drawable/ic_menu_save"/>
-        </LinearLayout>
+            <Button
+                android:layout_marginStart="6sp"
+                android:id="@+id/button_secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_button"
+                android:drawableLeft="@drawable/ic_delete_forever_black_24dp"/>
+            </LinearLayout>
+            </LinearLayout>
     </RelativeLayout>
 
 
