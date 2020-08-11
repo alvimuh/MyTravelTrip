@@ -19,10 +19,10 @@ public class DetailTripActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_trip);
         dbHelper = new DataHelper(this);
-        text1 = (TextView) findViewById(R.id.textView1);
-        text2 = (TextView) findViewById(R.id.textView2);
-        text3 = (TextView) findViewById(R.id.textView3);
-        text4 = (TextView) findViewById(R.id.textView4);
+        text1 = (TextView) findViewById(R.id.title);
+        text2 = (TextView) findViewById(R.id.location);
+        text3 = (TextView) findViewById(R.id.date);
+        text4 = (TextView) findViewById(R.id.story);
         SQLiteDatabase db = dbHelper.getReadableDatabase();
         cursor = db.rawQuery("SELECT * FROM "+DataHelper.MyColumns.namaTabel+" WHERE "+DataHelper.MyColumns.id_trip+" = '" +
                 getIntent().getStringExtra(DataHelper.MyColumns.id_trip) + "'",null);

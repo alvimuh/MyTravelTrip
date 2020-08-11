@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             cursor.moveToPosition(cc);
             daftar[cc] = cursor.getString(0).toString();
             name[cc] = cursor.getString(1).toString();
+            name[cc] = cursor.getString(1).toString();
         }
         ListView01 = (ListView)findViewById(R.id.listView1);
         ListView01.setAdapter(new ArrayAdapter(this,
